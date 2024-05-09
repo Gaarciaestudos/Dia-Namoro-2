@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: center;
+    background-color: black;
+    flex-direction: row;
+}
+
+header {
+    background-color:darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.painel {
+ background-color: darkred;
+ width: 300px;
+ height: 330px;
+ margin: auto;
+ flex-direction: row;
+ border-radius: 50px;
+ box-shadow: 0 6px 25px gold;
+}
+
+img { 
+    width: 210px;
+    height: 210px;
+    flex-direction: row;
+    margin: 50px;
+    margin-right: 80px;
+    position: relative;
+}
+
+#Botao{
+    background-color: gold;
+    width: 150px;
+    height: 30px;
+    flex-direction: row;
+    border-radius: 50px;
+    box-shadow: 0 6px 25px gold;
+    margin-left: 75px;
+    margin-top: -4%;
+    position: absolute;
+}
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
